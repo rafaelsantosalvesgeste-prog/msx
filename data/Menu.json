@@ -1,0 +1,25 @@
+menu.json
+{
+  "headline": "Rafa Media Center",
+  "menu": [
+    {
+      "icon": "home",
+      "label": "Início",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,2,3",
+          "icon": "msx-white-soft:home",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Bem-vindo ao Rafa Media Center",
+            "action": "info:Seu portal está sendo preparado!"
+          }
+        ]
+      }
+    }
+  ]
+}
